@@ -1,0 +1,26 @@
+version: "3.5"
+services:
+  php-test-basket1:
+    build: ./docker/
+    image: ${DOCKER_IMAGE_NAME}
+    volumes:
+      - ./src/:/usr/src/
+    command:  basket/basket1.php
+  php-test-basket2:
+    build: ./docker/
+    image: ${DOCKER_IMAGE_NAME}
+    volumes:
+      - ./src/:/usr/src/
+    command:  basket/basket2.php
+  php-test-basket3:
+    build: ./docker/
+    image: ${DOCKER_IMAGE_NAME}
+    volumes:
+      - ./src/:/usr/src/
+    command:  basket/basket3.php
+  php-test-basket4:
+    build: ./docker/
+    image: ${DOCKER_IMAGE_NAME}
+    volumes:
+      - ./src/:/usr/src/
+    command:  basket/basket4.php
