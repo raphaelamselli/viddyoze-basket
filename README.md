@@ -46,4 +46,6 @@ _Bootstrap could also be used to create a web interface_
 
 - Furthermore, the basket isn't currently persisted or an existing basket cannot be retrieved. In the stateless world of http this would need to be improved. This means being able to identify users and track their journey.
 
-- Finally, some of the functionalities should be exposed to be used as APIs rather than library functions. This would allow for the separation of functionalities into services. 
+- Also, some of the functionalities should be exposed to be used as APIs rather than library functions. This would allow for the separation of functionalities into services. 
+
+- Finally, Tests should be added! 
